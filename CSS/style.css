@@ -79,9 +79,12 @@ body {
 .link2, .link1 {
   border-bottom: 10px dashed #0eff06;
   font-size: 20px;
-  color: rgb(252, 31, 241);
+  color: rgb(235, 55, 0);
 }
 
 .block p {
   margin: 30px;
+}
+.link2 {
+  font-size: 100px;
 }
