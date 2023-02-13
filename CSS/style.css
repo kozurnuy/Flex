@@ -76,9 +76,12 @@ body {
   margin: 30px;
 }
 
-.block:hover {
-  color: green;
+.link2, .link1 {
+  border-bottom: 10px dashed #0eff06;
+  font-size: 20px;
+  color: rgb(252, 31, 241);
 }
-.block__text {
-  background: #000;
+
+.block p {
+  margin: 30px;
 }
