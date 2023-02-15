@@ -106,6 +106,13 @@ width: 300px/1024px*100%;
 */
 /*---------------------------------------------------*/
 body {
+  font-family: "Montserrat", sans-serif;
   background-color: #e8e8e8;
   margin: 30px;
+}
+
+[class*=__container] {
+  max-width: 1470px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
