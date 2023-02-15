@@ -70,21 +70,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*----------------------------------------------------*/
+/* SASS
+$cr:rgb(235, 55, 0);
+
+%linkborder{
+	border-bottom: 10px dashed #0eff06;
+	font-size: 30px;
+	color: $cr;
+}
+@mixin fontsz($f,$c){
+font-size: $f;
+color: $c;
+}
+
+.block {
+p{
+	margin: 20px;
+
+}
+background: #666;
+width: 300px/1024px*100%;
+
+	&__text {
+		p{border: 1px solid #000;}
+}
+.link1 {
+	@include fontsz(90px,rgb(255, 0, 191)); 
+
+
+}
+}
+.link2 {
+ @extend %linkborder; 
+}
+*/
 /*---------------------------------------------------*/
 body {
   background-color: #e8e8e8;
   margin: 30px;
-}
-
-.link2, .link1 {
-  border-bottom: 10px dashed #0eff06;
-  font-size: 20px;
-  color: rgb(235, 55, 0);
-}
-
-.block p {
-  margin: 30px;
-}
-.link2 {
-  font-size: 100px;
 }
