@@ -68,4 +68,10 @@ width: 300px/1024px*100%;
 .link2 {
  @extend %linkborder; 
 }
+
+[class*="__container"]{
+   max-width: 1200px;  
+   margin: 0 auto;
+   padding: 0 15px;
+}
 */

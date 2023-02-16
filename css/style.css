@@ -103,16 +103,11 @@ width: 300px/1024px*100%;
 .link2 {
  @extend %linkborder; 
 }
+
+[class*="__container"]{
+   max-width: 1200px;  
+   margin: 0 auto;
+   padding: 0 15px;
+}
 */
 /*---------------------------------------------------*/
-body {
-  font-family: "Montserrat", sans-serif;
-  background-color: #F5F5F5;
-  margin: 30px;
-}
-
-[class*=__container] {
-  max-width: 1470px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
