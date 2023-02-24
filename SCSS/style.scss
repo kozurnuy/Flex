@@ -1,4 +1,236 @@
 @import "_nullstyle";
 /*---------------------------------------------------*/
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
 
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
 
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0px auto;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+.top__pid {
+    display: flex;
+    justify-content: space-between;
+}
+.top {
+    background-color: #445162;
+    padding: 50px 0;
+    margin: 0 0 50px 0;
+
+    &__img {
+    }
+    &__info {
+    }
+    &__list li {
+        list-style: url("../img/icons/icon.png");
+    }
+    &__title {
+        color: #ffffff;
+        font-size: 60px;
+        filter: drop-shadow(0.5px 0.866px 0px rgba(0, 0, 0, 0.3));
+        margin: 0 0 39px 0;
+    }
+}
+.list {
+    &__item {
+        font-size: 20px;
+        line-height: 36px;
+        color: #ffffff;
+    }
+}
+
+.middl-top {
+    margin: 0 0 100px 0;
+}
+.container {
+}
+.middl-top-pid {
+    display: flex;
+
+    &__img {
+        flex: 0 0 470px;
+    }
+
+    &__info {
+    }
+
+    &__title {
+        font-size: 30px;
+        line-height: 36px;
+        color: #445161;
+        margin: 0 0 30px 0;
+    }
+
+    &__text p {
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        margin: 0 0 40px 0;
+    }
+    &__text p:last-child {
+        margin: 0;
+    }
+}
+
+.middl-mid {
+}
+.container {
+}
+.middl-mid-pid {
+    background-color: #f5f5f5;
+
+    &__h3 {
+        font-size: 30px;
+        line-height: 36px;
+        color: #445161;
+        text-align: center;
+        margin: 0 0 30px 0;
+    }
+}
+.middl-mid-pid--box {
+    display: flex;
+}
+.box {
+    &__one {
+    }
+
+    &__top {
+        display: flex;
+        margin: 0 0 30px 0;
+    }
+
+    &__img {
+        img {
+            height: 180px;
+            width: auto;
+        }
+    }
+
+    &__text {
+        margin: 0 15px;
+    }
+    &__text p:nth-child(1) {
+        font-size: 24px;
+        line-height: 30px;
+        color: #445161;
+        padding: 0 0 15px 0;
+    }
+    &__text p:nth-child(2) {
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+    }
+    &__text {
+    }
+
+    &__bottom {
+        display: flex;
+    }
+
+    &__two {
+    }
+}
+
+.middl-bottom {
+}
+
+.middl-bottom-pid {
+    padding: 30px;
+    &__title {
+        font-size: 30px;
+line-height: 36px;
+color: #445161;
+font-family: "Arial";
+text-align: center;
+    }
+
+    &__vertical {
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
+        
+    }
+
+    &__box {
+        background-color: #445162;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 500px;
+    }
+}
+.box {
+    line-height: 30px;
+    text-transform: uppercase;
+   color: #ffffff; 
+   text-align: center; 
+   &__title {
+        font-size: 24px;
+                
+       
+        padding: 18px 0;
+        
+    }
+    &__white {
+        font-size: 40px;
+      
+        color: #445162;
+        background: #ffffff;
+        padding: 17px 0;
+        border: 2px solid #445162;
+
+        text-align: center;
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 70%;
+        padding: 0 25px;
+
+        &__element1 {
+            font-size: 14px;
+            line-height: 24px;
+            color: #ffffff;
+            font-family: "Arial";
+        }
+        &__element2 {
+            font-size: 18px;
+            line-height: 18px;
+            color: #445161;
+            font-weight: bold;
+
+            background: #ffffff;
+            width: 260px;
+            height: 41px;
+            padding: 10px 0;
+            text-align: center;
+        }
+    }
+}
+
+.footer {
+    background-color: #f5f5f5;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__text {
+        font-size: 12px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #445162;
+    }
+}
